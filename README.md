@@ -28,19 +28,19 @@ Edit these variables at the top of the script to customize allowed networks:
 ```
 Make the script executable:
 ```bash
-  chmod +x virtualbox.sh
+  chmod +x script.sh
 ```
 Run the script with root privileges:
 ```bash
-  sudo ./virtualbox.sh
+  sudo ./script.sh
 ```
 Alternatively, run directly with bash:
 ```bash
-  sudo bash virtualbox.sh
+  sudo bash script.sh
 ```
 After successful execution, you should see:
 ```bash
-└──╼ $sudo ./virtualbox.sh
+└──╼ $sudo ./script.sh
 Creating /etc/vbox directory...
 Configuring VirtualBox network permissions...
 Setting file permissions...
